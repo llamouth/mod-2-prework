@@ -1,29 +1,29 @@
 const questions = [
     {
-        question: "X",
+        question: "What is my favorite food?",
         answers: [
-            {text: "Wrong", correct: false},
-            {text: "Correct", correct: true},
-            {text: "Wrong", correct: false},
-            {text: "Wrong", correct: false},
+            {text: "Pasta", correct: false},
+            {text: "French fries & eggs", correct: true},
+            {text: "Seafood", correct: false},
+            {text: "Wings", correct: false},
         ]
     },
     {
-        question: "Y",
+        question: "What is my shoe size?",
         answers: [
-            {text: "Wrong", correct: false},
-            {text: "Wrong", correct: false},
-            {text: "Wrong", correct: false},
-            {text: "Correct", correct: true},
+            {text: "10", correct: false},
+            {text: "10 1/2", correct: false},
+            {text: "12", correct: false},
+            {text: "11 1/2", correct: true},
         ]
     },
     {
-        question: "Z",
+        question: "Where is my favortie artist from?",
         answers: [
-            {text: "Wrong", correct: false},
-            {text: "Wrong", correct: false},
-            {text: "Wrong", correct: false},
-            {text: "Correct", correct: true},
+            {text: "Atlanta", correct: false},
+            {text: "Los Angeles", correct: false},
+            {text: "Brooklyn", correct: false},
+            {text: "Toronto", correct: true},
         ]
     },
     {
