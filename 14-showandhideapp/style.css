@@ -6,14 +6,17 @@
 }
 
 body {
-    background: #3E4D6C;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #515151 20%, #3E4D6C 80%);
+    padding: 10px;
 }
 
 .input-box {
     background: #fff;
     width: 90%;
     max-width: 500px;
-    border-radius: 5px;
+    border-radius: 50px;
     padding: 10px 20px;
     margin: 300px auto;
     display: flex;
