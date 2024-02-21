@@ -25,8 +25,16 @@ if(song.play()){
     },500)
 }
 
-progress.onchange = () => {
-    song.play()
+// progress.onChange = () => {
+//     song.play()
+//     song.currenTime = progress.value
+//     ctrlIcon.classList.add("fa-pause")
+//     ctrlIcon.classList.remove("fa-play")
+// }
+
+const scrubSong = () => {
+    //   song.play()
+    // console.log(this)
     song.currenTime = progress.value
     ctrlIcon.classList.add("fa-pause")
     ctrlIcon.classList.remove("fa-play")
